@@ -1,0 +1,16 @@
+{
+  "name": "BEC",
+  "short_name": "BEC",
+  "icons": [
+    {
+      "src": "/logo-white.png"
+    }
+  ],
+  "splash": [
+    {
+      "src": "/logo-white.png",
+      "width": 640,
+      "height": 480
+    }
+  ]
+}

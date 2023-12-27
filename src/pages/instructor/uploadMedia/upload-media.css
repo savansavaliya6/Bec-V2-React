@@ -1,0 +1,139 @@
+.upload {
+  /* width: 300px; */
+  margin: 20px auto;
+}
+
+[data-bs-theme="light"] .upload-files {
+  background-color: #f0f0f0;
+  border: 2px dashed #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+[data-bs-theme="dark"] .upload-files {
+  background-color: #333;
+  border: 2px dashed #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+.upload-files header p {
+  font-size: 40px;
+}
+
+.upload-files header i {
+  font-size: 48px;
+  color: #007bff;
+}
+
+.upload-files header .up {
+  color: #007bff;
+  font-weight: bold;
+}
+
+[data-bs-theme="light"] .upload-files header .load {
+  color: #333;
+}
+
+[data-bs-theme="dark"] .upload-files header .load {
+  color: #b2b2b2;
+}
+
+.upload-files .body {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.upload-files .body i.pointer-none {
+  font-size: 48px;
+  color: #007bff;
+}
+
+.upload-files .body p.pointer-none {
+  color: #666;
+  font-weight: bold;
+}
+
+.upload-files .body a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.upload-files .body a:hover {
+  text-decoration: underline;
+}
+
+.upload-files footer .divider {
+  border-top: 2px solid #ccc;
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.upload-files footer .divider span {
+  background-color: #f0f0f0;
+  padding: 0 10px;
+}
+
+.upload-files footer .list-files {
+  margin-top: 20px;
+}
+
+.upload-files footer .importar {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.upload-files footer .importar:hover {
+  background-color: #0056b3;
+}
+
+.File-icon {
+  font-size: 30px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+/* file upload css */
+.custom-file-upload {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.custom-file-upload:hover {
+  background-color: #0056b3;
+}
+
+/* Style the file input to be hidden */
+#file-upload {
+  display: none;
+}
+
+/* Style the file input's label to resemble a button */
+.custom-file-upload i {
+  margin-right: 5px;
+}
+
+/* Style the file input label when a file is selected */
+#file-upload:checked + .custom-file-upload {
+  background-color: #28a745;
+}
+
+#file-upload:checked + .custom-file-upload:hover {
+  background-color: #218838;
+}
